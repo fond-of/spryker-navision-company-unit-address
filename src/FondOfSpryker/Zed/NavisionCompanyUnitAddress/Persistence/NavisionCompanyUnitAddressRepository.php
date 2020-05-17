@@ -18,8 +18,6 @@ class NavisionCompanyUnitAddressRepository extends AbstractRepository implements
      * @param string $externalReference
      *
      * @return \Generated\Shared\Transfer\CompanyUnitAddressTransfer|null
-     *
-     * @throws
      */
     public function findCompanyUnitAddressByExternalReference(string $externalReference): ?CompanyUnitAddressTransfer
     {
